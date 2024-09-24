@@ -119,7 +119,7 @@ pacman -S meson systemd git dbus libinih
 ```
 #### Fedora
 ```bash
-dnf install meson systemd-devel pkg-config git dbus-devel
+dnf install meson systemd-devel pkg-config git dbus-devel cmake gcc-c++
 ```
 #### Gentoo
 Gentoo has an ebuild which builds a stable release from sources. It will also pull in all the dependencies so you can work on the source code.
